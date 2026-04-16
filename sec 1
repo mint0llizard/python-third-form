@@ -1,0 +1,110 @@
+Q1 
+
+A computer system needs to check whether a user has entered the correct secret code. The correct code has already been stored in a variable called code. Complete the missing part of the program so that it compares the user's input with the correct code. If the user enters the correct code, the program should display the message "Access granted". 
+
+·       Read the code carefully before filling in the blank. 
+
+·       Complete the missing value in the condition. 
+
+·       The program should only print "Access granted" when the user's input matches the stored code. 
+
+code = "python" 
+user = input("Enter the secret code: ") 
+ 
+if user == ______: 
+    print("Access granted") 
+
+ 
+ 
+
+ 
+ 
+
+Q2  
+
+You are writing a program that checks whether a number is even. A number is even when it can be divided by 2 and leaves a remainder of 0. Complete the missing part of the code so that the program correctly identifies an even number and prints the message "Even number". 
+
+·       Think about what result num % 2 gives for an even number. 
+
+·       Complete the missing value in the condition. 
+
+·       The program should print "Even number" only when the remainder is correct. 
+
+num = int(input("Enter a number: ")) 
+ 
+if num % 2 == ______: 
+    print("Even number") 
+
+ 
+ 
+ 
+ 
+
+Q3  
+
+A website needs to place users into simple age categories. You need to write a complete Python program that asks the user to enter their age as a whole number. The program must then check whether the user is 13 years old or older. If the user is 13 or older, the program should display "Teenager". Otherwise, it should display "Child". 
+
+·       Ask the user to enter their age. 
+
+·       Store the age as an integer. 
+
+·       Use an if/else statement to decide which message to print. 
+
+ 
+ 
+ 
+ 
+
+Q4 
+
+A login screen needs to check whether the correct password has been entered. Write a complete Python program that asks the user to enter a password. The program should compare the password entered by the user with the correct password "admin123". If the password is correct, the program should display "Access granted". If the password is incorrect, the program should display "Access denied". 
+
+·       Use input() to ask for the password. 
+
+·       Use == to compare the entered password with the correct one. 
+
+·       Use if/else so the program prints the correct message in both cases. 
+
+ 
+ 
+ 
+ 
+
+Q5  
+
+A shop gives a 10% discount to customers who spend more than £100. Write a complete Python program that asks the user to enter the total cost of their shopping. If the total is greater than 100, the program should display the total cost of their shopping after the discount has been applied. Otherwise, it should display the total cost of their shopping. 
+
+·       Compare the total with 100. 
+
+ 
+ 
+
+ 
+
+ 
+
+Q6 
+
+A computer system gives special access to users with the username "admin". Write a complete Python program that asks the user to enter a username. If the username entered is exactly "admin", the program should display "Welcome admin". Otherwise, it should display "Access limited". 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Extension 
+
+ 
+
+Q7 
+
+A website has rules for creating usernames. Write a complete Python program that asks the user to enter a username. The username should only be accepted if it is at least 5 characters long. If it meets this rule, the program should print "VALID". Otherwise, it should print "INVALID". 
+
+·       Use len(username) to check the number of characters in the username. 
+
+ 
+
+ 
